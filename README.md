@@ -16,3 +16,6 @@ This file contains the code to run the Hypergraph + LLM method on the HC3 datase
 This file contains the code to run GAT + BERT method. Load the HC3 dataset files to the "/data" folder. Use "hyperparameter_search" to perform hyperparater seach for LR and Epochs. Use "hyperparameter_search_at_sp" to run hyperparameter search for the number of splits and the number of attention heads. 
 
 Load Data.pkl file directly here from drive to reduce the run time by utilizing the saved BERT embeddings as a graph.
+
+## Domain Adaptation Experiment
+The file contains initial experiments with BERT and Roberta. It includes code that used to split HC3 data, initial analysis, code to test HC3 dataset on low resource and combination settings.
