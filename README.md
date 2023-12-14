@@ -20,6 +20,8 @@ Load Data.pkl file directly here from drive to reduce the run time by utilizing 
 ## Domain Adaptation Experiment
 The file contains initial experiments with BERT and Roberta. It includes code that used to split HC3 data, initial analysis, code to test HC3 dataset on low resource and combination settings.
 
-## Bert Perturbed Training (Poor Performance) 
+## Prompt Adaptation Analysis
+This file contains the analysis done on the data collected using different prompts.
 
+## Bert Perturbed Training (Poor Performance) 
 The file contains fine-tuning BERT with perturbed text for MGT detection task.
