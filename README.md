@@ -11,3 +11,8 @@ This file contains the code to run supervised fine-tuning of BERT and RoBERTa on
 
 ## Hypergraph and LLM
 This file contains the code to run the Hypergraph + LLM method on the HC3 dataset. Load the HC3 dataset files to the "/data" folder. Use "run_experiment" to run the experiment.
+
+## Reverse Engineering CoT
+This file contains the code to run GAT + BERT method. Load the HC3 dataset files to the "/data" folder. Use "hyperparameter_search" to perform hyperparater seach for LR and Epochs. Use "hyperparameter_search_at_sp" to run hyperparameter search for the number of splits and the number of attention heads. 
+
+Load Data.pkl file directly here from drive to reduce the run time by utilizing the saved BERT embeddings as a graph.
